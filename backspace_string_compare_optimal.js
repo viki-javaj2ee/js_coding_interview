@@ -1,6 +1,9 @@
 const string1 = "ab#z";
 const string2 = "az#z";
 
+const string3 = "y#fo##f";
+const string4 = "y#f#o##f";
+
 var backspaceCompare = function (S, T) {
   let p1 = S.length - 1,
     p2 = T.length - 1;
